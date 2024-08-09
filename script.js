@@ -1,14 +1,10 @@
-//your JS code here. If required.
-// script.js
 
 const container = document.querySelector('.container');
 
-// Create 800 boxes
 for (let i = 0; i < 800; i++) {
     const square = document.createElement('div');
     square.classList.add('square');
     
-    // Add hover effect
     square.addEventListener('mouseover', () => changeColor(square));
     square.addEventListener('mouseout', () => resetColor(square));
 
@@ -25,7 +21,6 @@ function resetColor(element) {
     }, 1000);
 }
 
-// Generate a random color
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
