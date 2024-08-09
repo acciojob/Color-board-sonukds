@@ -17,7 +17,7 @@ function changeColor(element) {
 
 function resetColor(element) {
     setTimeout(() => {
-        element.style.backgroundColor = '#ddd';
+        element.style.backgroundColor = 'rgb(29, 29, 29)';
     }, 1000);
 }
 
