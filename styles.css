@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(40, 20px); /* 40 boxes per row */
+    gap: 5px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    transition: background-color 1s;
+}
