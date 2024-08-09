@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #1c1c1c;
 }
 
 .container {
@@ -19,6 +19,6 @@ body {
 .square {
     width: 20px;
     height: 20px;
-    background-color: #ddd;
+    background-color: rgb(29, 29, 29);
     transition: background-color 1s;
 }
